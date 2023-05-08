@@ -1,0 +1,90 @@
+.logo
+{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.logo img
+{
+  width: 150px;
+  height:45px;
+  margin-top:10px;
+}
+
+.logo span
+{
+    margin : 10px;
+    font-size:14px;
+}
+
+.innerbox
+{
+    width:296px;
+    height:505px;
+    padding:20px 26px;
+    justify-content:space-around;
+    flex-direction:column;
+    border:1px solid #ddd;
+    border-radius:4px;
+    margin:20px auto 25px auto;
+}
+
+.innerbox h1 
+{
+    font-weight:400;
+    font-size:28px;
+}
+
+.innerbox label
+{
+font-size: 13px;
+padding-left:2px;
+padding-bottom:2px;
+font-weight:700;
+}
+
+.innerbox input
+{
+ width:272px;
+ height:25px;
+ padding:3px 7px;
+ margin-top: 3px;
+ background-color:#fff;
+ border:1px solid #a6a6a6;
+ border-radius:3px;
+}
+
+.innerbox button
+{
+    width:288px;
+    height:25px;
+    padding: 3px 7px;
+    margin-top:3px;
+    background-color:#fff;
+    border:1px solid #a6a6a6;
+    border-top-color:#949494;
+    background-image:linear-gradient(#f7da90,#e2b33b);
+    border-radius:3px;
+}
+
+.innerbox p,.innerbox p a
+{
+ font-size:12px;
+ line-height:1.5;
+}
+
+a
+{
+    text-decoration: none;
+    color:#0066c0;
+}
+
+.innerbox a
+{
+ margin-top: 10px;
+ font-size:13px;
+}
+.a4{
+    font-size: 2px;
+}

@@ -1,0 +1,238 @@
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#box1 {
+  background-image: url("https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg");
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+  display: table;
+  background-attachment: fixed;
+  font-family: calibri;
+}
+
+.header1 {
+  padding: 50px;
+  text-align: left;
+  color: white;
+  font-size: 25px;
+  margin-right: 50%;
+}
+
+.button1 
+{
+  background-color: #0f79af;
+  /* Blue */
+  border: none;
+  color: white;
+  padding: 20px 60px;
+  text-align: left;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 3px;
+  cursor: pointer;
+  border-radius: 3px;
+  line-height: 50%;
+  float: left;
+}
+
+#box2 {
+  background-image: url("https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Left");
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+  display: table;
+  background-attachment: fixed;
+  font-family: calibri;
+
+}
+
+.header2 {
+  padding: 50px;
+  text-align: left;
+  color: white;
+  font-size: 25px;
+  margin-left: 50%;
+}
+
+.image {
+  display: grid;
+
+}
+
+
+.button2 {
+  background-color: #0f79af;
+  /* Blue */
+  border: none;
+  color: white;
+  padding: 20px 100px;
+  text-align: left;
+  text-decoration: none;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 2px;
+  line-height: 50%;
+  float: left;
+}
+
+
+img {
+  max-height: 120px;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.header3:header4 {
+  margin-right: 20px;
+}
+
+#box3 {
+  padding-left: 60px;
+}
+
+.header3 {
+
+  text-align: left;
+  color: #000;
+  font-size: 23px;
+  font-family: calibri light;
+  height: 200px;
+  width: 550px;
+
+}
+
+#box4 {
+  padding-left: 90px;
+}
+
+.header4 {
+  padding: 13px;
+  row-gap: 5px;
+  column-gap: 5px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  flex-flow: wrap;
+  justify-content: space-around;
+  justify-items: flex-start;
+}
+
+#box5 
+{
+  background-color: #000;
+  background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left.jpg");
+  height: 450px;
+  justify-content: center; 
+  padding-top: 20px;
+}
+
+.header5 
+{
+  text-align: left;
+  color: white;
+  font-size: 23px;
+  font-family: calibri light;
+  margin-left: 55%;
+  margin-right: 4.3%;
+}
+
+.button5
+{
+  background-color: #0f79af;
+  /* Blue */
+  border: none;
+  color: white;
+  padding: 23px 100px;
+  text-align: center;
+  text-decoration:double;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 2px;
+  line-height: 50%;
+  float: left;
+}
+
+#box6
+{
+  background-color:#000;
+  background-image: url("https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/IN-kids-30Jan._CB1517304519_.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 70vh;
+  padding: 20px;
+} 
+
+.header6
+{
+  text-align:left;
+  color:white;
+  font-size: 23px;
+  font-family:calibri light;
+  margin-right: 55%;
+  margin-left: 40px;
+}
+
+.button6
+{
+  background-color: #0f79af;
+  /* Blue */
+  border: none;
+  color: white;
+  padding: 23px 100px;
+  text-align: center;
+  text-decoration:double;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 2px;
+  line-height: 50%;
+  float: left;
+}
+
+.header7
+{
+  background-color: #222222;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.q1
+{
+  color: #0f79af;
+}
+
+.q2
+{
+  color: white;
+}
+
+.navbar {
+  background-color: #1b2530;
+  overflow: auto;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar li a {
+  color: beige;
+  text-decoration: none;
+}
+
+.navbar li {
+  float: left;
+  display: inline;
+  font-family: Amazon Ember, Amazon Arabic Ember, Arial, sans-serif !important;
+  padding-left: 17px;
+  font-size: 17px;
+  margin: 8px;
+}
